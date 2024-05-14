@@ -55,3 +55,20 @@ npm test
 ## More
 
 You can view full document on our [official website](https://pro.ant.design). And welcome any feedback in our [github](https://github.com/ant-design/ant-design-pro).
+
+## 注意
+
+### 安装依赖
+
+如果 npm 失败，可以用 yarn 安装，这个项目使用 yarn 成功安装依赖。
+
+### 路由问题
+
+根据报错提示，注释以下代码
+
+```ts
+      // {
+      //   component: '404',
+      //   path: '/*',
+      // },
+```
